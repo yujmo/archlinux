@@ -1,2 +1,2 @@
 # archlinux
-archlinux-Dockerfile
+具体见Dockerfile
