@@ -3,4 +3,4 @@ ADD pacman.conf /etc/pacman.conf
 RUN pacman -Sy && pacman -Syu --noconfirm && pacman -S sed --noconfirm  && pacman -S yaourt --noconfirm \
     && echo "nameserver 114.114.114.114" > /etc/resolv.conf
 ADD mirrorlist /etc/pacman.d/mirrorlist
-RUN yaourt -Syy && yaourt -Syu --noconfirm
+RUN yaourt -Syy && yaourt -Syu --noconfirm && yaourt -S man --noconfirm
